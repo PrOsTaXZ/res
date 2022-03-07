@@ -32,3 +32,6 @@ footer {
   padding: 30px;
   border: 2px solid rgb(189, 0, 0);
 }
+footer a {
+  color: chartreuse;
+}
