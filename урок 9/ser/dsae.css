@@ -1,0 +1,8 @@
+
+.block{
+    background-color:rgb(81, 182, 196);
+    color: rgb(250, 58, 58);
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
