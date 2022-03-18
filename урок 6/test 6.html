@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test 6</title>
+    <style>
+      body {
+        text-align: conter;
+        background-color: #000000;
+        color: white;
+      }
+      #nachalo {
+        color: rgb(208, 255, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <script src="./iuy.js"></script>
+    <header>
+      <nav>
+        <a href="#nachalo">Начало</a>
+        <a href="#opros">Опрос</a>
+        <a href="./register.html">Регистрация</a>
+        <a href="./uslovi.html">Условия</a>
+      </nav>
+    </header>
+    <div id="foto">
+      <img
+        src="./images/foto.jpg"
+        alt="слово ок"
+        width="190"
+        height="190"
+        title="ок я сделал задание"
+      />
+      <hr />
+    </div>
+    <div id="nachalo">
+      <h1>Начало</h1>
+      <p>этот сайт домашка и поэтому здесь мало так!</p>
+      <hr />
+    </div>
+    <div id="opros">
+      <h1>Опрос</h1>
+      <p>Можно не заполнять опрос, это проста тест.</p>
+      <form>
+        <input type="text" placeholder="введите имя" />
+        <br /><br />
+        <input type="text" placeholder="Введите возраст" />
+        <br /><br />
+        <label for="ch1">Вы согласны с условиями?</label>
+        <input type="checkbox" name="checkbox" id="ch1" />
+        <a href="./uslovi.html">Условия</a>
+        <p>Укажите пол</p>
+        <label for="g1">Женский</label>
+        <input type="radio" name="yyt" id="g1" value="Женский" />
+        <br /><br />
+        <label for="g2">Мужской</label>
+        <input type="radio" name="yyt" id="g2" value="Мужской" />
+        <br /><br />
+        <label for="g3">Не указано</label>
+        <input type="radio" name="yyt" id="g3" value="Не указано" />
+        <br /><br />
+        <input type="submit" placeholder="отправить" />
+      </form>
+    </div>
+    <a href="./register.html">Регистрация</a>
+
+    <footer>
+      <p>создан 2022г для теста</p>
+    </footer>
+  </body>
+</html>
