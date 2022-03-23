@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.wrapper > div {
+  display: inline-block;
+}
+.ponel {
+  width: 15%;
+  background-color: #666;
+  position: fixed;
+  height: 100%;
+}
+
+.content {
+  width: 60%;
+  vertical-align: top;
+  padding: 25px 5px;
+  margin-left: 25%;
+}
+
+.links > a {
+  display: block;
+  margin-top: 15%;
+}
+.ponel a {
+  color: white;
+  text-decoration: none;
+}
+.links {
+  padding: 0 25px;
+}
+img {
+  display: block;
+}
