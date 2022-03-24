@@ -32,18 +32,14 @@ main {
   margin-top: 15%;
 }
 .ponel a {
-  color: rgb(88, 83, 83);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 .links {
   padding: 0 25px;
 }
-img {
-  display: block;
-}
 header {
   background-color: darkred;
-  position: fixed 0 0 0 0;
 }
 nav {
   padding: 1px 25px;
@@ -61,4 +57,10 @@ nav {
   color: purple;
   position: relative;
   top: -50px;
+}
+h1 {
+  text-align: center;
+}
+img {
+  padding: 18px;
 }
