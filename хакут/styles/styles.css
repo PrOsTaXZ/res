@@ -12,8 +12,9 @@ body {
   display: inline-block;
 }
 .ponel {
+  font-family: "Courier New", Courier, monospace;
   width: 15%;
-  background-color: rgb(78, 78, 78);
+  background-color: rgba(173, 73, 73, 0.999);
   position: fixed;
   height: 90%;
   left: -4px;
@@ -31,7 +32,7 @@ main {
   margin-top: 15%;
 }
 .ponel a {
-  color: rgb(155, 137, 137);
+  color: rgb(88, 83, 83);
   text-decoration: none;
 }
 .links {
@@ -45,14 +46,19 @@ header {
   position: fixed 0 0 0 0;
 }
 nav {
-  padding: 1px 20px;
+  padding: 1px 25px;
   margin: 0 auto;
 }
 .few {
   text-align: end;
   vertical-align: top;
-  position: 0;
 }
 .few > a {
   text-decoration: none;
+  margin: 0px 12px;
+  padding: 3px 13px;
+  background-color: rgba(255, 255, 255, 0.555);
+  color: purple;
+  position: relative;
+  top: -50px;
 }
