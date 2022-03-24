@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: cornsilk;
+}
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.wrapper > div {
+  display: inline-block;
+}
+.ponel {
+  width: 15%;
+  background-color: rgb(78, 78, 78);
+  position: fixed;
+  height: 90%;
+  left: -4px;
+}
+
+main {
+  width: 60%;
+  vertical-align: top;
+  padding: 25px 5px;
+  margin-left: 25%;
+}
+
+.links > a {
+  display: block;
+  margin-top: 15%;
+}
+.ponel a {
+  color: rgb(155, 137, 137);
+  text-decoration: none;
+}
+.links {
+  padding: 0 25px;
+}
+img {
+  display: block;
+}
+header {
+  background-color: darkred;
+  position: fixed 0 0 0 0;
+}
+nav {
+  padding: 1px 20px;
+  margin: 0 auto;
+}
+.few {
+  text-align: end;
+  vertical-align: top;
+  position: 0;
+}
+.few > a {
+  text-decoration: none;
+}
