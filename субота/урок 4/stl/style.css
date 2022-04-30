@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+
+.grf {
+  position: fixed;
+}
+.sidebar {
+  position: fixed;
+  width: 200px;
+  background-color: #965a37;
+  height: 100%;
+  padding: 30px;
+  left: -215px;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 15px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: rgb(150, 151, 153);
+}
+
+#chek {
+  display: none;
+}
+#check:checked ~ .sidebar {
+  left: 0;
+}
+#open,
+#close {
+  position: absolute;
+  cursor: pointer;
+  background-color: #965a37;
+  color: rgb(15, 19, 24);
+  font-size: 1.2rem;
+
+  transition: all 0.5s ease;
+}
+#close {
+  opacity: 0;
+}
+#check:checked ~ label #open {
+  margin-left: 210px;
+  opacity: 0;
+}
+
+#check:checked ~ label #close {
+  margin-left: 210px;
+  opacity: 1;
+}
+
+.theme img {
+  width: 100%;
+  height: 100%;
+}
+.theme .header {
+  text-align: center;
+  background-color: #965a37;
+  margin-right: auto;
+}
