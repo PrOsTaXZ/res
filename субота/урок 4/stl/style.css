@@ -1,31 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 * {
+  font-family: "Poppins", sans-serif;
   margin: 0;
+}
+
+.header-flex {
+  display: flex;
+  background-color: #514812;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-flex a {
+  background-color: #514812;
+  color: rgb(224, 198, 192);
+  text-decoration: none;
+  border-radius: 7px;
+  margin-left: 12px;
+  padding: 6px;
+  transition: all 0.5s ease;
+}
+.header-flex a:hover {
+  background-color: rgb(147, 67, 50);
+}
+header img {
+  width: 55px;
 }
 
 .grf {
   position: fixed;
+  box-sizing: border-box;
 }
 .sidebar {
   position: fixed;
   width: 200px;
-  background-color: #ffffff;
+  background-color: #965a37;
   height: 100%;
   padding: 30px;
   left: -400px;
+  transition: all 0.5s ease;
 }
 
 .sidebar a {
   display: block;
   margin-bottom: 15px;
+  border-radius: 12px;
+  background-color: #6a4129;
   color: aliceblue;
   text-decoration: none;
+  padding: 5px;
+  transition: all 0.5s ease;
 }
 
 .sidebar a:hover {
   color: rgb(150, 151, 153);
+  background-color: #7e4e32;
 }
 
-#chek {
+#check {
   display: none;
 }
 
@@ -33,27 +65,29 @@
 #close {
   position: absolute;
   cursor: pointer;
-  background-color: #965a37;
+  background-color: #7f4e31;
   color: rgb(15, 19, 24);
-  font-size: 1.2rem;
-
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 1.5rem;
   transition: all 0.5s ease;
 }
 #close {
   opacity: 0;
 }
+#check:checked ~ .sidebar {
+  left: 0;
+}
 #check:checked ~ label #open {
-  margin-left: 210px;
+  margin-left: 260px;
   opacity: 0;
 }
 
 #check:checked ~ label #close {
-  margin-left: 210px;
+  margin-left: 260px;
   opacity: 1;
 }
-#check:checked ~ .sidebar {
-  left: 0;
-}
+
 .theme img {
   width: 100%;
   height: 100%;
@@ -62,4 +96,68 @@
   text-align: center;
   background-color: #965a37;
   margin-right: auto;
+}
+
+.pr {
+  background-image: url(../images/485ddf8bba_960x400__f426_db.jpg);
+  background-size: cover;
+  font-family: "Ubuntu", sans-serif;
+}
+.pr-flex {
+  display: flex;
+  height: 400px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pr-flex p,
+h1 {
+  color: #804502;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.pr-flex p {
+  width: 400px;
+}
+.cards {
+  background-color: #f39b69;
+}
+.services-cards {
+  margin-top: 1px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cards-row:first-child {
+  margin-bottom: 25px;
+}
+.services-cards .card {
+  box-shadow: 0 0 15px 0 rgb(146, 85, 85);
+  background-color: #bc774f;
+  width: 170px;
+  padding: 25px;
+  border-radius: 12px;
+  height: 240px;
+  margin: 12px;
+}
+.card p {
+  line-height: 1.5;
+}
+
+.card img {
+  width: 68px;
+  margin-bottom: 10px;
+}
+footer {
+  background-color: #4b2d28;
+  color: #f39b69;
+  padding: 6px;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
