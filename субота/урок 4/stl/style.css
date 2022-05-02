@@ -151,6 +151,32 @@ h1 {
   width: 68px;
   margin-bottom: 10px;
 }
+#reg {
+  background-color: #f39b69;
+}
+#reg hr {
+  height: 1.5px;
+  background-color: rgb(139, 72, 16);
+}
+.info-info {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 320px;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+.info-info button {
+  border: none;
+  padding: 15px 35px;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  margin: 6px 10px;
+  transition: all 0.5s ease;
+}
+.info-info button:hover {
+  background-color: rgb(150, 169, 199);
+  color: rgb(99, 98, 98);
+}
 footer {
   background-color: #4b2d28;
   color: #f39b69;
