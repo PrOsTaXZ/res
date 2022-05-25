@@ -203,6 +203,7 @@ p {
 }
 .card-info {
   padding: 25px;
+  outline: none;
 }
 .news-cards .card img {
   width: 100%;

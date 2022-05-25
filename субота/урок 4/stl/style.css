@@ -99,7 +99,8 @@ header img {
 }
 
 .pr {
-  background-image: url(../images/485ddf8bba_960x400__f426_db.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/485ddf8bba_960x400__f426_db.jpg);
   background-size: cover;
   font-family: "Ubuntu", sans-serif;
 }
@@ -176,6 +177,15 @@ h1 {
 .info-info button:hover {
   background-color: rgb(150, 169, 199);
   color: rgb(99, 98, 98);
+}
+.asdf-flex {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+.daun {
+  width: 60%;
 }
 footer {
   background-color: #4b2d28;
