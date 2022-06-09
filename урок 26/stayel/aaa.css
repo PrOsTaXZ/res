@@ -40,6 +40,7 @@ header a:hover {
 .grf {
   box-sizing: border-box;
 }
+
 .sidebar {
   position: absolute;
   width: 200px;
@@ -48,6 +49,7 @@ header a:hover {
   padding: 30px;
   left: -400px;
   transition: all 0.5s ease;
+  z-index: 4;
 }
 
 .sidebar a {
@@ -131,6 +133,40 @@ header a:hover {
   justify-content: space-evenly;
   flex-direction: row-reverse;
 }
-main {
-  margin-bottom: 999px;
+
+.carts {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+.cart1 {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #000;
+  position: relative;
+}
+
+.cart1 * {
+  position: absolute 0 0 0 0;
+  z-index: 2;
+}
+.cart1 div {
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 48%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.cart1 div:target {
+  opacity: 1;
+}
+.hidden {
+  display: none;
 }
