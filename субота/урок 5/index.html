@@ -4,19 +4,121 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./stayle.css" />
-    <title>3Д карточки</title>
+    <title>test</title>
+    <link rel="stylesheet" href="./stl/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div class="wrapper">
-      <div class="card">
-        <div class="front">
-          <span>Передняя сторона</span>
-        </div>
-        <div class="back">
-          <span>Задняя сторона</span>
-        </div>
-      </div>
+    <div class="grf">
+      <input type="checkbox" id="check" />
+      <label for="check">
+        <i class="fa fa-graduation-cap" id="open"></i>
+        <i class="fa-solid fa-xmark" id="close"></i>
+      </label>
+      <nav class="sidebar">
+        <a href="">О колледже</a>
+        <a href="">Поступающим</a>
+        <a href="">Особенности обучения</a>
+        <a href="">Экзамены и аппеляция</a>
+        <a href="">Персонал</a>
+      </nav>
     </div>
+    <header>
+      <div class="header-flex">
+        <img src="./images/free-icon-college-4345521.png" />
+        <nav>
+          <a href="">сcылка1</a>
+          <a href="">сcылка2</a>
+          <a href="">сcылка3</a>
+          <a href="">сcылка4</a>
+          <a href="">сcылка5</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="pr">
+          <div class="pr-flex">
+            <h1>Приветствие</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+              accusamus expedita rem illo! Eligendi eius culpa sapiente hic,
+              veritatis illum voluptatem labore. Fugiat dolorem esse eos ea?
+              Obcaecati, optio iure.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="cards">
+          <div class="services-cards">
+            <div class="cards-row">
+              <div class="card">
+                <img src="./images/l1.png" />
+                <div class="card-text">
+                  <h1>эгэ</h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/l2.png" />
+                <div class="card-text">
+                  <h1>Вступительне эгзамен</h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/l3.png" />
+                <div class="card-text">
+                  <h1>Наити книгу</h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="reg">
+        <hr />
+        <div class="asdf-flex">
+          <div class="info-info">
+            <div class="studen">
+              <button>Ввход как студнет</button>
+            </div>
+            <div class="curatr">
+              <button>Ввход как куратор</button>
+            </div>
+          </div>
+          <div class="daun">
+            <h4>Догавор</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              maiores delectus, nemo totam molestiae velit doloremque temporibus
+              natus dolores quis quidem earum quam cumque harum ad dolor
+              corrupti eius eveniet?
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-flex">
+          <h3>на этом всё</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>

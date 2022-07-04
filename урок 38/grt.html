@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+    <link rel="stylesheet" href="./css/stayel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Новигацыя -->
+    <header>
+      <div class="header_h">
+        <div class="header_flex">
+          <img src="./img/ava.png" class="pk_logo" />
+          <img src="./img/i.png" class="mobal_logo" />
+          <div class="header-bars">
+            <div class="scd">
+              <a href="#" class="menu-btn"><span></span></a>
+            </div>
+          </div>
+          <nav>
+            <a href="#" class="header_a v1">Главная</a>
+            <a href="#services" class="header_a v2">Найти услугу</a>
+            <a href="#" class="header_a v3">Проэкты</a>
+            <a href="#form" class="header_a v4">свизатся с нами</a>
+            <a href="#" class="header_a v5">О нас</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="banner">
+      <div class="banner-wrapper">
+        <div class="inner">
+          <div class="banner-text">
+            <h5>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore repellendus fugit.
+            </h5>
+            <h1>разработка ботов</h1>
+            <button class="primaru" style="margin-top: 50px">Подробние</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Приветствие -->
+    <section id="welcome">
+      <div class="welcome-wrapper">
+        <div class="inner">
+          <div class="welcome-flex">
+            <div class="welcome-text">
+              <h1>Создаём Teligram <br />бота на python</h1>
+              <div class="welcome-p-text">
+                <p>
+                  Создай Телиграм бота свойми руками c библятеками Aiogram ,
+                  TelegramBotAPI
+                </p>
+              </div>
+              <button class="bn_we primary">Падробнее</button>
+            </div>
+            <img src="./img/gie.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="services-wrapper">
+        <div class="inner">
+          <div class="services-text">
+            <h1>Услуги бота</h1>
+            <hr />
+            <p>Что умеют нашы боты</p>
+          </div>
+          <!-- Карточки -->
+          <div class="services-cards">
+            <div class="cards-row">
+              <div class="card">
+                <img src="./img/pngwing.com.png" / style="width:90px ;">
+                <div class="card-text">
+                  <h1>Работа с база данных SQL</h1>
+                  <p>Привязка бота к база данных. к примеру PostgreSQL и т.д</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./img/смд.png" style="width: 90px" />
+                <div class="card-text">
+                  <h1>Работа с командоми</h1>
+                  <p>Работа и создание команд для бота</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./img/services-icon.png" />
+                <div class="card-text">
+                  <h1>Работа с фота и аудио</h1>
+                  <p>Работа и настройка фота и аудио</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-row hidden expandable">
+              <div class="card">
+                <img src="./img/services-icon.png" />
+                <div class="card-text">
+                  <h1>Карта 1</h1>
+                  <p>Card</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./img/services-icon.png" />
+                <div class="card-text">
+                  <h1>Карта 2</h1>
+                  <p>Card</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./img/services-icon.png" />
+                <div class="card-text">
+                  <h1>Карта 3</h1>
+                  <p>Card</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bt-vi">
+          <button class="default ex-bt">Падробней</button>
+        </div>
+      </div>
+    </section>
+    <!-- Проекты -->
+    <section id="projects">
+      <div class="projects-wrapper">
+        <div class="inner">
+          <div class="projects-container">
+            <div class="project">
+              <img src="./img/python.svg" />
+              <div class="project-text">
+                <h1>Библятека на Python</h1>
+                <hr />
+                <p>
+                  Есть розличные библятеки. но для разработки ботов на python
+                  используют Aiogram и TelegramBotAPI
+                </p>
+                <button class="default">Подробние</button>
+              </div>
+            </div>
+            <div class="project rat-pr">
+              <img src="./img/logo.png" />
+              <div class="project-text">
+                <h1>Библятека Aiogram</h1>
+                <hr />
+                <p>
+                  Професиональная библятека на python. Библятека Aiogram даёт
+                  для разработчиков не ограниченые возможности а имено работа с
+                  текстом и командоми, создание уникальных фильтров, и т.д
+                </p>
+                <form action="./Download/aiogram.zip">
+                  <button class="default">Скачать &#9167;</button>
+                </form>
+              </div>
+            </div>
+            <div class="project">
+              <img
+                src="./img/png-transparent-chatbot-internet-bot-github-telegram-bot-api-github-online-chat-internet-instant-messaging.png"
+              />
+              <div class="project-text">
+                <h1>Библятека TelegramBotAPI</h1>
+                <hr />
+                <p>
+                  Ограниченое библятека на python. Библятека TelegramBotAPI даёт
+                  для разработчиков не ограниченые возможности а имено работа с
+                  текстом и командоми, и т.д
+                </p>
+                <button class="default">Скачать &#9167;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="news">
+      <div class="news-wrapper">
+        <div class="inner">
+          <div class="news-text">
+            <h1>Наши Новости</h1>
+            <hr />
+          </div>
+          <div class="news-cards">
+            <div class="cards-row">
+              <div class="card">
+                <img src="./img/l3.jpg" />
+                <div class="card-info">
+                  <h1>Какой-то Текст</h1>
+                  <p>Какой-то очень длины текст</p>
+                  <a href="#"> Ссылка на... </a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./img/l2.jpg" />
+                <div class="card-info">
+                  <h1>Какой-то Текст</h1>
+                  <p>Какой-то очень длины текст</p>
+                  <a href="#"> Ссылка на... </a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./img/l1.jpg" />
+                <div class="card-info">
+                  <h1>Какой-то Текст</h1>
+                  <p>Какой-то очень длины текст</p>
+                  <a href="#"> Ссылка на... </a>
+                </div>
+              </div>
+            </div>
+            <div class="bt-vi">
+              <button class="default">Ещё</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="video">
+      <div class="video-wrapper">
+        <div class="inner">
+          <div class="video-container">
+            <div class="toch bottom-e">
+              <img src="./img/points.png" />
+            </div>
+            <div class="video-element">
+              <div class="video-text">
+                <h1>Что то написено</h1>
+                <span class="video-play">
+                  <img src="./img/play-button.png" />
+                  <p>play-pres</p>
+                </span>
+              </div>
+            </div>
+            <div class="toch top">
+              <img src="./img/points.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="form">
+      <div class="contact-wrapper">
+        <div class="inner">
+          <div class="contact-text">
+            <h1>Свяжитесь с нами</h1>
+            <p>Новости,oновление,оповещения</p>
+          </div>
+          <div class="contact-form">
+            <div class="contact-container">
+              <div class="input-container">
+                <input type="text" placeholder="E-mail" />
+              </div>
+              <div class="input-button">Отправить</div>
+            </div>
+          </div>
+          <p style="text-align: center">Какой-то Текст</p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-gl">
+      <div class="footer-wrapper">
+        <div class="inner">
+          <div class="footer-flex">
+            <div class="description">
+              <div class="footer-text">
+                <img src="./img/footer-logo.png" />
+                <p>Какой-то текст</p>
+              </div>
+            </div>
+            <div class="links">
+              <div class="footer-text">
+                <h2>Компания</h2>
+                <ul>
+                  <li><a href="#">О нас</a></li>
+                  <li><a href="#">Найти услуги</a></li>
+                  <li><a href="#">Проекты</a></li>
+                  <li><a href="#">Главное</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="links">
+              <div class="footer-text">
+                <h2>Компания</h2>
+                <ul>
+                  <li><a href="#">О нас</a></li>
+                  <li><a href="#">Найти услуги</a></li>
+                  <li><a href="#">Проекты</a></li>
+                  <li><a href="#">Главное</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="links">
+              <div class="footer-text">
+                <h2>Регион</h2>
+                <ul>
+                  <li><a href="#">Россия</a></li>
+                  <li><a href="#">Қазақстан</a></li>
+                  <li><a href="#">Украина</a></li>
+                  <li><a href="#">США</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="links">
+              <div class="footer-text">
+                <h2>Помощь</h2>
+                <ul>
+                  <li><a href="#">С услугай</a></li>
+                  <li><a href="#">С проектом</a></li>
+                  <li><a href="#">С навигацием</a></li>
+                  <li><a href="#">С разработкой</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal-canvas hidden">
+      <div class="modal">
+        <div class="modal-cloge">
+          <span>X</span>
+        </div>
+        <div class="video-container">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/rEPOh8YXjsk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <script src="./skr/jquery-3.6.0.min.js"></script>
+    <script src="./skr/iug.js"></script>
+  </body>
+</html>

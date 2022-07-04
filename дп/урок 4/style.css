@@ -1,0 +1,27 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+ul {
+  list-style-type: none;
+  width: 200px;
+}
+li {
+  margin-bottom: 5px;
+}
+#menu a {
+  display: block;
+  color: white;
+  font: 13px Arial;
+  border: 1px solid #007be7;
+  text-decoration: none;
+  padding: 0px 6px;
+  line-height: 30px;
+  background-color: #0081e7;
+  font-weight: bold;
+}
+#menu a:hover,
+#menu a.op {
+  color: blue;
+  background: #fff url(blue.png) no-repeat 90% center;
+}
